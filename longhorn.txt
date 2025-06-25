@@ -1,0 +1,372 @@
+apiVersion: catalog.cattle.io/v1
+kind: App
+metadata:
+  annotations:
+    objectset.rio.cattle.io/applied: >-
+      H4sIAAAAAAAA/7xWW2/bRhP9K/z2e3O5FClbsk0gQFsHKIq0aJCkeWjjh+HuUNyK3CVml1RVQ/+92NXVEe0oF/XNps7M2bmcmXlgDTqQ4IDlDwy0Ng6cMtr6f03xFwpn0SWkTCLAuRoTZUZKspxVWDcc2pbFT+LMQiPxWT9nORv1WRy9Ulq+eIuC0H3STEODLGe2SjxTQlgjWEz6LKmNnlWGdNKPT/JiWxDe1daO26V12LBVzARhCPedatA6aFqW666uY1ZDgXVIggAHtZkdeBZ1Zx0SJ2zN9pkEWlRIXFRAzj7zrApsxXIGWKYoykJOJ5O0zG4lTKCYZtdicntdXF2nJWZjcSmn/pEbiu3z2frLU1HFLET+Bksk1AIty/98YNCq90hWGc1y1mcsZkVtxPw3D32JNbrwSwm1xZgJox2ZukZiuaMOYzZX2td8V7pTi9OFVhGXgFfXIHkproFfjW+u+e3N+IZPU3k7LS8zKSY3bHW/ipltUYSk+zT6P57pzuPCQOcMV9o6qOvDzAiSLxpwomLxUDmRnCoVyn0ZB3FS2baG5bbiv+zLcYyddwXyfpfwD12aXuKLKEvGkyTl6aDN80U9xrdIjXKWG+sNlO7+jhdKS7Oww3AyvZJo+aynAwb/U58V6CAbNNs29nEw4yTLfDBR+CD8/+Mng9t0CD/u5WOsW7Yes5WZM6YexHWKW9ORwKDEIRF+yoY/phq2aK0jhOYgA32W3CSZl+axrKBt338MjJlEK0i1a5XtWidSNoJIKutIFZ1DGQVRRtYZghlG6+JHpaHoVVcgaXRoExazyoQsVs61Nh+NZspVXZEI04y2iR0dZFiJwLpFEyyStUVnkbzWUbtgLLQoR0BuYWg+asCnxLdNGGQjX4M5LheGpB8phyXcvNfHuY9lO2JC9L0S/mdlhVV+fJSW3cesAaUdKI20HlLYgPLCPfj+/UGf7ufOLoGHHlb3Q6NyXe3w4hPTdQqMo54pjaeiw0zSAnkDGmah0U6ysxXQZxt9JrxTpyId2qCq58AFiLnSM64amO1ffh+zvXqydJqMk/S7rt3IaBWHY2Inm8uYKV0aP+Mf6+b3dkYgMRKmaWt0Pv2lIuteYlubZRjg43Q84emUjyfv0tv88jqfXP3B/Dp/CpWl+eU4z6YepY3znfJIn9osos1KQRkZHbkKo828+N8H/UG/DoMtWoByEUQlLqJG+TYiBBma8f/Rzt+dH0zeaD1Do4uLn5vWkAPtLi7yaONqQxeYdqYi6Axc5x8ot6F8wXVAuJfER3eBFRXKrlZ6lsxv7HozsN3yf03KkHLLuxqsZUfEXJBySkDNVvHQvbE7IcgPgx+EMJ12A27sGsDhEeLpG+5ruPw2+A/pbNf6avOi07LGr6G6M7pUs1+hHWCRWEJXO74t9Ll5LDqn9OxcNJvlIg667mQOKkAk0LnKkPonXI5DjX23VvMbs6vJoW/yn8/iGaSfFGdxjVK583juFS6+gecflZb7pjkkKDz2nAQfqfAUSQ89E8QctfwG82LAeUnhKjuTd2H0ZhvzBRaVMfPz8Pj+tuenIRSmR1p+aUmgbe2jLnoJ2Bj9FodG+P64+kqOsMEbHNwTklSPxDdb/sxk4f571v/h9TZe7c+QB2YKvz5R/oQaCdZXWhoz2zUN0JLlD6vV6t8AAAD//z2huMhiEgAA
+    objectset.rio.cattle.io/id: helm-app
+    objectset.rio.cattle.io/owner-gvk: /v1, Kind=Secret
+    objectset.rio.cattle.io/owner-name: sh.helm.release.v1.longhorn.v2
+    objectset.rio.cattle.io/owner-namespace: longhorn-system
+  creationTimestamp: '2025-06-25T09:37:55Z'
+  generation: 4
+  labels:
+    catalog.cattle.io/cluster-repo-name: rancher-charts
+    objectset.rio.cattle.io/hash: aef0ecfbd6550f19da5ab617c597b470fe12c3d6
+  managedFields:
+    - apiVersion: catalog.cattle.io/v1
+      fieldsType: FieldsV1
+      fieldsV1:
+        f:metadata:
+          f:annotations:
+            .: {}
+            f:objectset.rio.cattle.io/applied: {}
+            f:objectset.rio.cattle.io/id: {}
+            f:objectset.rio.cattle.io/owner-gvk: {}
+            f:objectset.rio.cattle.io/owner-name: {}
+            f:objectset.rio.cattle.io/owner-namespace: {}
+          f:labels:
+            .: {}
+            f:catalog.cattle.io/cluster-repo-name: {}
+            f:objectset.rio.cattle.io/hash: {}
+          f:ownerReferences:
+            .: {}
+            k:{"uid":"c3ae47ad-fc7a-4287-9828-60d96f31dc58"}: {}
+        f:spec:
+          .: {}
+          f:chart:
+            .: {}
+            f:metadata:
+              .: {}
+              f:annotations:
+                .: {}
+                f:catalog.cattle.io/auto-install: {}
+                f:catalog.cattle.io/certified: {}
+                f:catalog.cattle.io/display-name: {}
+                f:catalog.cattle.io/kube-version: {}
+                f:catalog.cattle.io/namespace: {}
+                f:catalog.cattle.io/permits-os: {}
+                f:catalog.cattle.io/provides-gvr: {}
+                f:catalog.cattle.io/rancher-version: {}
+                f:catalog.cattle.io/release-name: {}
+                f:catalog.cattle.io/type: {}
+                f:catalog.cattle.io/ui-source-repo: {}
+                f:catalog.cattle.io/ui-source-repo-type: {}
+                f:catalog.cattle.io/upstream-version: {}
+              f:apiVersion: {}
+              f:appVersion: {}
+              f:description: {}
+              f:home: {}
+              f:icon: {}
+              f:keywords: {}
+              f:maintainers: {}
+              f:name: {}
+              f:sources: {}
+              f:version: {}
+          f:helmVersion: {}
+          f:info:
+            .: {}
+            f:description: {}
+            f:firstDeployed: {}
+            f:lastDeployed: {}
+            f:notes: {}
+            f:readme: {}
+            f:status: {}
+          f:name: {}
+          f:namespace: {}
+          f:resources: {}
+          f:version: {}
+      manager: rancher
+      operation: Update
+      time: '2025-06-25T10:32:40Z'
+    - apiVersion: catalog.cattle.io/v1
+      fieldsType: FieldsV1
+      fieldsV1:
+        f:status:
+          .: {}
+          f:observedGeneration: {}
+          f:summary:
+            .: {}
+            f:state: {}
+      manager: rancher
+      operation: Update
+      subresource: status
+      time: '2025-06-25T10:32:40Z'
+  name: longhorn
+  namespace: longhorn-system
+  ownerReferences:
+    - apiVersion: v1
+      blockOwnerDeletion: false
+      controller: true
+      kind: Secret
+      name: sh.helm.release.v1.longhorn.v2
+      uid: c3ae47ad-fc7a-4287-9828-60d96f31dc58
+  resourceVersion: '920802'
+  uid: 28774deb-5e09-4e73-a50b-d87fd1b2fe65
+spec:
+  chart:
+    metadata:
+      annotations:
+        catalog.cattle.io/auto-install: longhorn-crd=match
+        catalog.cattle.io/certified: rancher
+        catalog.cattle.io/display-name: Longhorn
+        catalog.cattle.io/kube-version: '>= 1.25.0-0'
+        catalog.cattle.io/namespace: longhorn-system
+        catalog.cattle.io/permits-os: linux,windows
+        catalog.cattle.io/provides-gvr: longhorn.io/v1beta1
+        catalog.cattle.io/rancher-version: '>= 2.11.0-0 < 2.12.0-0'
+        catalog.cattle.io/release-name: longhorn
+        catalog.cattle.io/type: cluster-tool
+        catalog.cattle.io/ui-source-repo: rancher-charts
+        catalog.cattle.io/ui-source-repo-type: cluster
+        catalog.cattle.io/upstream-version: v1.8.1
+      apiVersion: v1
+      appVersion: v1.8.1
+      description: Longhorn is a distributed block storage system for Kubernetes.
+      home: https://github.com/longhorn/longhorn
+      icon: >-
+        https://raw.githubusercontent.com/cncf/artwork/master/projects/longhorn/icon/color/longhorn-icon-color.png
+      keywords:
+        - longhorn
+        - storage
+        - distributed
+        - block
+        - device
+        - iscsi
+        - nfs
+      maintainers:
+        - email: maintainers@longhorn.io
+          name: Longhorn maintainers
+      name: longhorn
+      sources:
+        - https://github.com/longhorn/longhorn
+        - https://github.com/longhorn/longhorn-engine
+        - https://github.com/longhorn/longhorn-instance-manager
+        - https://github.com/longhorn/longhorn-share-manager
+        - https://github.com/longhorn/longhorn-manager
+        - https://github.com/longhorn/longhorn-ui
+        - https://github.com/longhorn/longhorn-tests
+        - https://github.com/longhorn/backing-image-manager
+      version: 106.2.0+up1.8.1
+  helmVersion: 3
+  info:
+    description: Upgrade complete
+    firstDeployed: '2025-06-25T09:37:54Z'
+    lastDeployed: '2025-06-25T10:32:16Z'
+    notes: >
+      Longhorn is now installed on the cluster!
+
+
+      Please wait a few minutes for other Longhorn components such as CSI
+      deployments, Engine Images, and Instance Managers to be initialized.
+
+
+      Visit our documentation at https://longhorn.io/docs/
+    readme: >
+      # Longhorn Chart
+
+
+      > **Important**: Please install the Longhorn chart in the
+      `longhorn-system` namespace only.
+
+
+      > **Warning**: Longhorn doesn't support downgrading from a higher version
+      to a lower version.
+
+
+      > **Note**: Use Helm 3 when installing and upgrading Longhorn. Helm 2 is
+      [no longer supported](https://helm.sh/blog/helm-2-becomes-unsupported/).
+
+
+      ## Source Code
+
+
+      Longhorn is 100% open source software. Project source code is spread
+      across a number of repos:
+
+
+      1. Longhorn Engine -- Core controller/replica logic
+      https://github.com/longhorn/longhorn-engine
+
+      2. Longhorn Instance Manager -- Controller/replica instance lifecycle
+      management https://github.com/longhorn/longhorn-instance-manager
+
+      3. Longhorn Share Manager -- NFS provisioner that exposes Longhorn volumes
+      as ReadWriteMany volumes.
+      https://github.com/longhorn/longhorn-share-manager
+
+      4. Backing Image Manager -- Backing image file lifecycle management.
+      https://github.com/longhorn/backing-image-manager
+
+      5. Longhorn Manager -- Longhorn orchestration, includes CSI driver for
+      Kubernetes https://github.com/longhorn/longhorn-manager
+
+      6. Longhorn UI -- Dashboard https://github.com/longhorn/longhorn-ui
+
+
+      ## Prerequisites
+
+
+      1. A container runtime compatible with Kubernetes (Docker v1.13+,
+      containerd v1.3.7+, etc.)
+
+      2. Kubernetes >= v1.25
+
+      3. Make sure `bash`, `curl`, `findmnt`, `grep`, `awk` and `blkid` has been
+      installed in all nodes of the Kubernetes cluster.
+
+      4. Make sure `open-iscsi` has been installed, and the `iscsid` daemon is
+      running on all nodes of the Kubernetes cluster. For GKE, recommended
+      Ubuntu as guest OS image since it contains `open-iscsi` already.
+
+
+      ## Upgrading to Kubernetes v1.25+
+
+
+      Starting in Kubernetes v1.25, [Pod Security
+      Policies](https://kubernetes.io/docs/concepts/security/pod-security-policy/)
+      have been removed from the Kubernetes API.
+
+
+      As a result, **before upgrading to Kubernetes v1.25** (or on a fresh
+      install in a Kubernetes v1.25+ cluster), users are expected to perform an
+      in-place upgrade of this chart with `enablePSP` set to `false` if it has
+      been previously set to `true`.
+
+
+      > **Note:**
+
+      > If you upgrade your cluster to Kubernetes v1.25+ before removing PSPs
+      via a `helm upgrade` (even if you manually clean up resources), **it will
+      leave the Helm release in a broken state within the cluster such that
+      further Helm operations will not work (`helm uninstall`, `helm upgrade`,
+      etc.).**
+
+      >
+
+      > If your charts get stuck in this state, you may have to clean up your
+      Helm release secrets.
+
+      Upon setting `enablePSP` to false, the chart will remove any PSP resources
+      deployed on its behalf from the cluster. This is the default setting for
+      this chart.
+
+
+      As a replacement for PSPs, [Pod Security
+      Admission](https://kubernetes.io/docs/concepts/security/pod-security-admission/)
+      should be used. Please consult the Longhorn docs for more details on how
+      to configure your chart release namespaces to work with the new Pod
+      Security Admission and apply Pod Security Standards.
+
+
+      ## Uninstallation
+
+
+      To prevent Longhorn from being accidentally uninstalled (which leads to
+      data lost), we introduce a new setting, deleting-confirmation-flag. If
+      this flag is **false**, the Longhorn uninstallation job will fail. Set
+      this flag to **true** to allow Longhorn uninstallation. You can set this
+      flag using setting page in Longhorn UI or `kubectl -n longhorn-system
+      patch -p '{"value": "true"}' --type=merge lhs deleting-confirmation-flag`
+
+
+      To prevent damage to the Kubernetes cluster, we recommend deleting all
+      Kubernetes workloads using Longhorn volumes (PersistentVolume,
+      PersistentVolumeClaim, StorageClass, Deployment, StatefulSet, DaemonSet,
+      etc).
+
+
+      From Rancher Cluster Explorer UI, navigate to Apps page, delete app
+      `longhorn` then app `longhorn-crd` in Installed Apps tab.
+
+
+      ---
+
+      Please see [link](https://github.com/longhorn/longhorn) for more
+      information.
+    status: deployed
+  name: longhorn
+  namespace: longhorn-system
+  resources:
+    - apiVersion: scheduling.k8s.io/v1
+      kind: PriorityClass
+      name: longhorn-critical
+    - apiVersion: v1
+      kind: ServiceAccount
+      name: longhorn-service-account
+      namespace: longhorn-system
+    - apiVersion: v1
+      kind: ServiceAccount
+      name: longhorn-ui-service-account
+      namespace: longhorn-system
+    - apiVersion: v1
+      kind: ServiceAccount
+      name: longhorn-support-bundle
+      namespace: longhorn-system
+    - apiVersion: v1
+      kind: ConfigMap
+      name: longhorn-default-resource
+      namespace: longhorn-system
+    - apiVersion: v1
+      kind: ConfigMap
+      name: longhorn-default-setting
+      namespace: longhorn-system
+    - apiVersion: v1
+      kind: ConfigMap
+      name: longhorn-storageclass
+      namespace: longhorn-system
+    - apiVersion: rbac.authorization.k8s.io/v1
+      kind: ClusterRole
+      name: longhorn-role
+    - apiVersion: rbac.authorization.k8s.io/v1
+      kind: ClusterRole
+      name: longhorn-admin
+    - apiVersion: rbac.authorization.k8s.io/v1
+      kind: ClusterRole
+      name: longhorn-edit
+    - apiVersion: rbac.authorization.k8s.io/v1
+      kind: ClusterRole
+      name: longhorn-view
+    - apiVersion: rbac.authorization.k8s.io/v1
+      kind: ClusterRoleBinding
+      name: longhorn-bind
+    - apiVersion: rbac.authorization.k8s.io/v1
+      kind: ClusterRoleBinding
+      name: longhorn-support-bundle
+    - apiVersion: v1
+      kind: Service
+      name: longhorn-backend
+      namespace: longhorn-system
+    - apiVersion: v1
+      kind: Service
+      name: longhorn-frontend
+      namespace: longhorn-system
+    - apiVersion: v1
+      kind: Service
+      name: longhorn-conversion-webhook
+      namespace: longhorn-system
+    - apiVersion: v1
+      kind: Service
+      name: longhorn-admission-webhook
+      namespace: longhorn-system
+    - apiVersion: v1
+      kind: Service
+      name: longhorn-recovery-backend
+      namespace: longhorn-system
+    - apiVersion: apps/v1
+      kind: DaemonSet
+      name: longhorn-manager
+      namespace: longhorn-system
+    - apiVersion: apps/v1
+      kind: Deployment
+      name: longhorn-driver-deployer
+      namespace: longhorn-system
+    - apiVersion: apps/v1
+      kind: Deployment
+      name: longhorn-ui
+      namespace: longhorn-system
+  version: 2
+status:
+  observedGeneration: 4
+  summary:
+    state: deployed
