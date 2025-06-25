@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: app
-        image: nginx:1.21
+        image: nginx:1.22
         ports:
         - containerPort: 80
 ---
@@ -30,4 +30,3 @@ spec:
   ports:
   - port: 80
   type: ClusterIP
-  
